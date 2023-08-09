@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
-<div id="main-content test">
-    <h2>Update Record test</h2>
+<div id="main-content">
+    <h2>Update Record</h2>
     <?php
         $conn = mysqli_connect("localhost","root","Crud1010@","Crud") or die("COnnection Unsuccessful");
         $std_id = $_GET['id'];
